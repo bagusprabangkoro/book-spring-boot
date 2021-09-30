@@ -11,7 +11,7 @@ import java.util.List;
 @Service
 public class BookServiceImpl implements BookService{
     @Autowired
-    @Qualifier("fake")
+    @Qualifier("postgre")
     BookDao bookDao;
 
     @Override

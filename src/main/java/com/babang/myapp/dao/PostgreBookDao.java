@@ -19,7 +19,7 @@ public class PostgreBookDao implements BookDao {
 
     @Override
     public String generateRandomBook() {
-        return null;
+        return "Generate random book from postgre";
     }
 
     @Override
